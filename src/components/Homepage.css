@@ -1,0 +1,23 @@
+.jumbotron {
+	color: white;
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.hero-border {
+	color: black;
+	padding-top: 10vh;
+}
+
+.hero-text {
+	font-family: "Bariol";
+	font-size: 5.8vw;
+}
+
+.hero-text-2 {
+	font-family: "Bariol";
+	font-size: 2.8vw;
+}
