@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
 	return (
 		<nav>
-			<div class="logo">Logo here</div>
-			<div class="menu">
+			<div className="logo">Logo here</div>
+			<div className="menu">
 				<ul>
 					<li>
 						<Link to="/" className="nav-link">
@@ -15,9 +15,9 @@ function Navbar() {
 						</Link>
 					</li>
 					<li>
-						<a href="#about" className="nav-link">
+						<Link to="/#about" className="nav-link">
 							About
-						</a>
+						</Link>
 					</li>
 					<li>
 						<Link to="/member" className="nav-link">
